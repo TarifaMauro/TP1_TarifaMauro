@@ -17,6 +17,7 @@ public class Main {
 			Producto producto = new Producto();
 			
 			System.out.println("Ingrese los datos del producto " +(i+1)+ ":");
+			System.out.println();
 			System.out.println("Nombre: ");
 			producto.setNombre(scanner.nextLine());
 			
