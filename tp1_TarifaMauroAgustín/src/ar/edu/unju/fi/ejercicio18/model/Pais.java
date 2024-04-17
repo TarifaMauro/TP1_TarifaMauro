@@ -23,6 +23,10 @@ public class Pais {
 		this.codigo = codigo;
 	}
 	
-	
+	@Override
+	public String toString() {
+		
+		return nombre+". Codigo: "+codigo;
+	}
 
 }

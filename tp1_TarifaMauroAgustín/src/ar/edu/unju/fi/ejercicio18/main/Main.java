@@ -143,7 +143,9 @@ public class Main {
 	        }
 
 	        for (DestinoTuristico destino : destinos) {
-	            System.out.println("Destino: "+destino.getNombre()+" .Codigo: "+destino.getCodigo());
+	            System.out.println("Destino: "+destino.getNombre()+" .Codigo: "+destino.getCodigo()+ " Precio: "+destino.getPrecio()+"$");
+	            System.out.println("Cantidad de dias: "+ destino.getCantDias()+ " Pais: "+destino.getPais());
+	            System.out.println();
 	        }
 	    }
 	 private static void modificarPaisDestinoTuristico(ArrayList<DestinoTuristico> destinos, ArrayList<Pais> paises) {
